@@ -8,7 +8,7 @@ yapdict is sqlite-backed storage with a Python dict API.
 
 ```python
 >>> import yapdict
->>> store = yapdict('test.kv', timeout=2)
+>>> store = yapdict.Store('test.kv', timeout=2)
 >>> store['a'] = '1'
 >>> store['b'] = '2'
 >>> store['a']
