@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include yapdict/VERSION.txt
+include DESCRIPTION.rst
+include tests.py
